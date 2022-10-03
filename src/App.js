@@ -15,7 +15,7 @@ useEffect(() => {
 
 
 const getHobby = async() => {
-  const responce = await fetch('http://www.boredapi.com/api/activity/');
+  const responce = await fetch('https://www.boredapi.com/api/activity/');
   const data = await responce.json();
   setHobby(data)
 }
